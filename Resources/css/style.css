@@ -128,3 +128,11 @@ nav span{
 }
 
 /* Footer */
+.footer{
+  height: 200px;
+}
+
+#copyright{
+  text-align: left;
+  margin-left: 20px;
+}
