@@ -9,9 +9,16 @@ body{
   align-items: center;
 }
 
+h2, h3, h4{
+  padding: 10px;
+  margin: 0;
+  display: block;
+}
+
 .flex{
   display: flex;
   align-items: center;
+
 }
 
 /* Header */
@@ -66,21 +73,58 @@ nav span{
 
 /* Middle Content */
 .tea-month{
-  flex-basis: 1000px;
-}
-.item{
+  width: 1000px;
+  padding: 70px 0px;
+  margin: auto;
   flex-wrap: wrap;
 }
 
-.item img{
-  height: 200px;
-  width: 300px;
+.tea-types{
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.item{
+  width: 300px;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.item img{
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+
+.tea-month h2, .tea-month h3{
+  width: 100%;
+}
+
+
 
 /* Locations */
 .locations {
   background-image: url('../../resources/images/locations-background.jpg');
   height: 500px;
+  width: 1200px;
+  padding-top: 75px;
+  margin: auto;
+}
+
+.column{
+  justify-content: center;
+  align-items: center;
+}
+
+.location{
+  background: black;
+  width: 300px;
+  height: 280px;
+  margin-right: 40px;
+  padding-top: 15px;
+  opacity: 1;
+  margin-top: 15px;
 }
 
 /* Footer */
