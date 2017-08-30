@@ -51,7 +51,7 @@ nav span{
 
 /* Banner */
 .banner{
-  background-image: url('../resources/images/mission-background.jpg');
+  background-image: url('../../resources/images/mission-background.jpg');
   height: 700px;
   width: 1200px;
   padding-top: 70px;
@@ -79,7 +79,7 @@ nav span{
 
 /* Locations */
 .locations {
-  background-image: url('../resources/images/locations-background.jpg');
+  background-image: url('../../resources/images/locations-background.jpg');
   height: 500px;
 }
 
